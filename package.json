@@ -1,0 +1,37 @@
+{
+    "name": "emp",
+    "version": "0.1.0",
+    "bin": {
+        "emp": "cdk/bin/emp.js"
+    },
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc -w",
+        "test": "jest",
+        "cdk": "cdk"
+    },
+    "devDependencies": {
+        "@aws-cdk/assert": "1.89.0",
+        "@types/jest": "^25.2.1",
+        "@types/node": "10.17.5",
+        "aws-cdk": "1.89.0",
+        "jest": "^25.3.0",
+        "ts-jest": "^25.3.1",
+        "ts-node": "^8.1.0",
+        "tslint": "^6.1.3",
+        "typescript": "^3.9.9"
+    },
+    "dependencies": {
+        "@aws-cdk/aws-cloudwatch": "^1.89.0",
+        "@aws-cdk/aws-dynamodb": "^1.89.0",
+        "@aws-cdk/aws-lambda": "^1.89.0",
+        "@aws-cdk/aws-lambda-event-sources": "^1.89.0",
+        "@aws-cdk/aws-sns": "^1.89.0",
+        "@aws-cdk/aws-sns-subscriptions": "^1.89.0",
+        "@aws-cdk/aws-sqs": "^1.89.0",
+        "@aws-cdk/core": "1.89.0",
+        "aws-sdk": "^2.842.0",
+        "lodash": "^4.17.20",
+        "source-map-support": "^0.5.16"
+    }
+}

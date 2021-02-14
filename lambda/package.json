@@ -1,0 +1,25 @@
+{
+    "name": "emp-lambda",
+    "version": "0.0.1",
+    "description": "Lambda Functions for emp",
+    "scripts": {
+        "build": "tsc"
+    },
+    "author": "Jashan Sidhu",
+    "license": "ISC",
+    "devDependencies": {
+        "@aws-cdk/assert": "1.89.0",
+        "@types/jest": "^25.2.1",
+        "@types/node": "10.17.5",
+        "jest": "^25.3.0",
+        "ts-jest": "^25.3.1",
+        "ts-node": "^8.1.0",
+        "typescript": "^4.1.5"
+    },
+    "dependencies": {
+        "typescript": "^4.1.5",
+        "aws-sdk": "^2.842.0",
+        "lodash": "^4.17.20",
+        "source-map-support": "^0.5.16"
+    }
+}
