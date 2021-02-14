@@ -8,7 +8,7 @@ const dynamoDb = new AWS.DynamoDB.DocumentClient({
 });
 
 /** Publish records 
- * @param { JSON } record: execution plan to be injected to DB
+ * @param { object } record: execution plan to be injected to DB
  */
 
 export async function publishRecords(record: object): Promise<void> {

@@ -1,6 +1,10 @@
 import * as dbService from "./dbService";
 import * as utils from "./utils";
 
+/** Lambda Handler to process execution plan 
+ * @param { any } event: message from SQS
+ * @param { any } context: lambda context
+ */
 exports.processExecutionPlan = async function (event: any, context: any) {
 
     try {
@@ -20,6 +24,10 @@ exports.processExecutionPlan = async function (event: any, context: any) {
     }
 };
 
+/** Lambda Handler to process operator events 
+ * @param { any } snsNotification: event from SNS
+ * @param { any } context: lambda context
+ */
 exports.processOperatorEvents = async function (snsNotification: any, context: any) {
 
     try {
