@@ -5,8 +5,12 @@
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+# Node modules
 node_modules/
 
 # Parcel build directories
 .cache
 .build
+
+# Test case dir
+.nyc_output
