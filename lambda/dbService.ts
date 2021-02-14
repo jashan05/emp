@@ -44,9 +44,10 @@ export async function fetchRecords(ppk: number, psk: number): Promise<GetItemOut
     }
 };
 
-/** Fetch records 
+/** Update records in DynamoDB
  * @param { number } ppk: Primary Partition key of DynamoDB table
  * @param { number } psk: Primary Sort key of DynamoDB table
+ * @param { object } record: Record which needs to be updated
  */
 export async function updateRecords(ppk: number, psk: number, record: object): Promise<GetItemOutput> {
     try {
